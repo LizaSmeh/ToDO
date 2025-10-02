@@ -1,16 +1,58 @@
-# React + Vite
+# ✅ ToDO App (PWA)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ToDO — это приложение «список дел», сделанное на **React + Vite + TailwindCSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Особенности
 
-## React Compiler
+- ⚛️ **React + Vite** — современный стек, быстрый dev-сервер и сборка.  
+- 🎨 **TailwindCSS** — удобная и быстрая стилизация.  
+- 🌐 **GitHub Pages** — простой и бесплатный деплой.  
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Технологии
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)  
+- [Vite](https://vitejs.dev/)  
+- [TailwindCSS](https://tailwindcss.com/)  
+- [vite-plugin-pwa](https://vite-pwa-org.netlify.app/)  
+- [gh-pages](https://www.npmjs.com/package/gh-pages) (для деплоя)  
+
+
+---
+
+## 🚀 Установка и запуск
+
+```bash
+# Клонировать репо
+git clone https://github.com/LizaSmeh/ToDO.git
+cd ToDO
+
+# Установить зависимости
+npm install
+
+# Запуск dev-сервера
+npm run dev
+```
+
+Открой браузер → `http://localhost:5173/`
+
+---
+
+# Деплой на GitHub Pages
+npm run deploy
+```
+
+После этого приложение доступно по адресу:  
+👉 **https://LizaSmeh.github.io/ToDO/**  
+
+---
+
+## 🎨 TailwindCSS
+
+Tailwind уже подключён к проекту. Для работы используются:  
+- `tailwind.config.js` — настройки.  
+
+---
