@@ -1,4 +1,4 @@
-# ✅ ToDO App (PWA)
+# ✅ ToDO
 
 ToDO — это приложение «список дел», сделанное на **React + Vite + TailwindCSS**.
 
@@ -17,7 +17,6 @@ ToDO — это приложение «список дел», сделанное
 - [React](https://reactjs.org/)  
 - [Vite](https://vitejs.dev/)  
 - [TailwindCSS](https://tailwindcss.com/)  
-- [vite-plugin-pwa](https://vite-pwa-org.netlify.app/)  
 - [gh-pages](https://www.npmjs.com/package/gh-pages) (для деплоя)  
 
 
